@@ -127,12 +127,12 @@ Hasta ahora sólo me he dejado llevar por la intuición para el análisis de las
 Para ello voy a realizar las siguientes pruebas de correlación:
 * Matriz de correlación general: El mapa de calor es una forma visual muy útil para para conocer las variables y sus relaciones. A primera vista hay dos variables que llaman la atención: 'TotalBsmtSF' y '1stFlrSF', seguidas por las variables 'Garage*X*'. En ambos casos parece haber una correlación significativa; en realidad es tan fuerte que podría indicar multicolinealidad, es decir, que básicamente ofrecen la misma información. Con respecto a las correlaciones de la variable 'SalePrice', destacan las vistas anteriormente ('GrLivArea', 'TotalBsmtSF' y 'OverallQual'), pero hay otras que también deberían ser tenidas en cuenta.
 * Matriz de correlación centrada en la variable 'SalePrice': En estas matrices de correlación se puede observar:
-** 'OverallQual', 'GrLivArea' y 'TotalBsmtSF' están fuertemente correladas con 'SalePrice'.
-** 'GarageCars' y 'GarageArea' también están fuertemente correladas pero, como he comentado anteriormente, el número de coches que se pueden aparcar en un garaje es una consecuencia de su superficie. Es por esto que sólo voy a mantener una de estas variables en el análisis, 'GarageCars', ya que está más correlada con 'SalePrice'.
-** 'TotalBsmtSF' y '1stFloor' plantean la misma situación. En este caso mantendré 'TotalBsmtSF'.
-** 'FullBath' también está correlada con 'SalePrice'. Parece que a la gente le gusta darse un baño en casa...
-** 'TotRmsAbvGrd' y 'GrLivArea', otro caso de multicolinealidad.
-** 'YearBuilt' también está ligeramente correlada con 'SalePrice'. 
+  * 'OverallQual', 'GrLivArea' y 'TotalBsmtSF' están fuertemente correladas con 'SalePrice'.
+  * 'GarageCars' y 'GarageArea' también están fuertemente correladas pero, como he comentado anteriormente, el número de coches que se pueden aparcar en un garaje es una consecuencia de su superficie. Es por esto que sólo voy a mantener una de estas variables en el análisis, 'GarageCars', ya que está más correlada con 'SalePrice'.
+  * 'TotalBsmtSF' y '1stFloor' plantean la misma situación. En este caso mantendré 'TotalBsmtSF'.
+  * 'FullBath' también está correlada con 'SalePrice'. Parece que a la gente le gusta darse un baño en casa...
+  * 'TotRmsAbvGrd' y 'GrLivArea', otro caso de multicolinealidad.
+  * 'YearBuilt' también está ligeramente correlada con 'SalePrice'. 
 * Diagramas de dispersión entre las variables más correladas.
 
 
