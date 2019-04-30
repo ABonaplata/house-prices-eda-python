@@ -1,6 +1,6 @@
 # House Prices: Análisis exploratorio de datos con Python
 
-Previamente publicado en https://www.kaggle.com/abonaplata/analisis-exploratorio-de-datos-con-python/
+Previamente publicado en [Kaggle Kernels](https://www.kaggle.com/abonaplata/analisis-exploratorio-de-datos-con-python/).
 
 El estudio previo de los datos o EDA es una etapa crítica en la ciencia de datos, y sin duda la que consume más tiempo.
 
